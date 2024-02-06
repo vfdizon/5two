@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fce4ec;
+    /* Soft pink background */
+    color: #424242;
+    /* Darker text for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ec407a;
+    /* Vibrant pink */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input,
+button {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 30px;
+    /* More rounded corners for a bubbly effect */
+    padding: 15px 25px;
+    border: 2px solid #ff80ab;
+    /* Pink border */
+    outline: none;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+input {
+    background-color: #fff;
+    margin-bottom: 10px;
+    /* Adjust margin between input and button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+}
+
+input:focus {
+    border-color: #f50057;
+    /* Brighter pink for focus */
+    box-shadow: 0 0 0 3px rgba(245, 0, 87, 0.2);
+    /* Subtle glow effect */
+}
+
+button {
+    background-color: #ab47bc;
+    /* Playful purple */
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Consistent shadow with input */
+    border: none;
+    /* Remove border for button */
+}
+
+button:hover {
+    background-color: #9c27b0;
+    /* Slightly darker purple on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    /* Enhanced shadow for a lifting effect */
+}
+
+h5 {
+    color: #7e57c2;
+    /* Soft purple */
+    text-align: center;
+    font-style: normal;
+    /* Keep it playful without italics */
+    margin-top: 20px;
+    /* Add space above options text */
+}
+
+div {
+ margin: 100px;
+    font-size: 50px;
+}
